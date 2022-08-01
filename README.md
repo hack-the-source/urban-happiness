@@ -2,7 +2,7 @@
 An Image Application to apply filters 😎 to your image and download that .
 
 
-
+<img src="https://socialify.git.ci/cfc-community/urban-happiness/image?description=1&font=Rokkitt&forks=1&language=1&name=1&owner=1&stargazers=1&theme=Dark" alt="urban-happiness" width="100%" height="320" />
 ## Todos For the events :
 
 1. Create a basic html and css page 
