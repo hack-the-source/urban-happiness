@@ -15,10 +15,10 @@ function setsepia() {
     image.style.filter = 'sepia(100%)';
 }
 function setblur() {
-    image.style.filter = 'blur(2px)';
+    image.style.filter = 'blur(1px)';
 }
 function setsaturate() {
-    image.style.filter = 'saturate(500%)';
+    image.style.filter = 'saturate(200%)';
 }
 
 black_white.addEventListener('click', setblack_white) ;
