@@ -1,0 +1,55 @@
+.main-content {
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    height: 740px;
+    ;
+}
+
+.image {
+    border-radius: 20px 0px;
+}
+
+.sepia {
+    filter: sepia(100%);
+}
+
+.blur {
+    filter: blur(2px);
+}
+
+.black-and-white {
+    filter: grayscale(100%);
+}
+
+.gradient {
+    background: linear-gradient(to right, #f00, #0f0, #00f);
+}
+
+.grid {
+    display: flex;
+}
+
+.btn {
+    color: crimson;
+    background-color: azure;
+    border: none;
+    margin: 2px;
+    cursor: pointer;
+    width: 25%;
+    height: 50px;
+    font-weight: bolder;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(88, 157, 134);
+}
+
+h1 {
+    font-size: 50px;
+    /* color: crimson; */
+    font-weight: bolder;
+}
