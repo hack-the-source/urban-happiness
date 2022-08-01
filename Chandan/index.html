@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Img-Shader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navigation Section -->
+    <div id="nav">
+        <div class="sect1">📷  Img-Shader</div>
+    </div>
+
+    <!-- Main Section -->
+    <div class="msg">
+        <h1>Filter Your Image in Seconds!</h1>
+        <div id="frame">
+            <div class="im1"><img src="images/img.jpg"></div>
+            <div class="im2"><img src="images/img2.jpg"></div>
+            <div class="im3"><img src="images/img3.jpg"></div>
+            <div class="im4"><img src="images/img4.png"></div>
+            <div class="im5"><img src="images/img5.jpg"></div>
+        </div>
+    </div>
+    
+    <!-- Image Selection  -->
+    <div id="imgSel">
+        <h2>Please Select Your Image</h2>
+    <input type='file' name='image' id="file">
+    <img class="im" id="preview" src="" alt="your image" />
+
+    <h2>Choose Any Filters !</h2>
+    <button onclick=addFilterInvert() class="filtB b1">Invert Image</button>
+    <button onclick=addFilterBlur() class="filtB b1">Blur</button>
+    <button onclick=addFilterBnw() class="filtB b2">Black & White</button>
+    <button onclick=addFilterSat() class="filtB b3">Saturated</button>
+    <button onclick=addFilterCont() class="filtB b4">Low Constrast</button>
+    <button onclick=addFilterSepia() class="filtB b4">Sepia</button>
+    </div>
+
+    <!-- Footer Section  -->
+    <div id="footer">
+        <h2>Social Links :</h2>
+        <div class="links">
+            <a href="https://www.facebook.com/chandanp007/"><img src="images/facebook.png" alt="facebook" srcset=""></a>
+            <a href="https://instagram.com/_chandan.pandey_"><img src="images/instagram.png" alt="instagram" srcset=""></a>
+            <a href="#"><img src="images/whatsapp.png" alt="whatsapp" srcset=""></a>
+            <a href="https://github.com/ChandanP007"><img src="images/github.png" alt="github" srcset=""></a>
+            <a href="https://twitter.com/chp_145"><img src="images/twitter.png" alt="twitter" srcset=""></a>
+        </div>
+        
+        <h4>Created By Chandan Pandey | With Love ❤️ </h4>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
