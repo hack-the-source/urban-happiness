@@ -7,6 +7,13 @@ let saturate = document.getElementById('saturate')
 let image = document.getElementById('image')
 // alert("javascript is working !")
 
+let file = document.getElementById('file');
+let preview = document.getElementById('image');
+
+file.addEventListener('change', function() {   
+    preview.src = URL.createObjectURL(this.files[0]); 
+}); 
+
 function setblack_white() {
     // image.style.filter = 'grayscale(100%)';
     image.style.filter = 'grayscale(100%)';
